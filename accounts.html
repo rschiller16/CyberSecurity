@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Factor Authentication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Cybersecurity Basics </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="phishing.html">Phishing</a></li>
+            <li><a href="accounts.html" class="current" aria-current="page">Two-Factor Authentication</a></li>
+        </ul>
+    </nav>
+
+    <main class="wrapper">
+        <article>
+            <h2>Why two-factor authentication matters</h2>
+            <p>Two-factor authentication (2FA) asks for two different kinds of proof when you sign in. Your password is something you know. A security key you plug in or tap is something you have.</p>
+
+            <h3>What if someone gets your password?</h3>
+            <p>Imagine that you enter your campus password on the fake mailbox page from the <a href="phishing.html">phishing example</a>. Someone now tries that password on the real campus portal.</p>
+            <ul>
+                <li><strong>With a password alone:</strong> The stolen password may be enough to open your inbox and read password-reset emails for other accounts.</li>
+                <li><strong>With a security key as your second factor:</strong> The portal also asks for your registered key. The person with your password cannot complete that sign-in with the password alone.</li>
+            </ul>
+            <p>If you entered your password on a fake page, change it through the real campus portal and tell campus IT, even if you had 2FA turned on.</p>
+        </article>
+        <aside>
+            <h2>Turn on 2FA</h2>
+            <ol>
+                <li>Open your account through its usual app or website.</li>
+                <li>In security settings, look for “two-factor authentication” or “two-step verification.”</li>
+                <li>Follow the steps to register a security key or an authenticator app.</li>
+            </ol>
+            <p>Only approve sign-ins you started. Keep one-time codes to yourself.</p>
+            <a href="https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts">Read the FTC guide to two-factor authentication</a>
+             <div class="picture">
+                <img src="2fa.jpg" alt="secure">
+                
+            </div>
+        </aside>
+    </main>
+
+    <footer>Rutger Schiller | CIT 212</footer>
+</body>
+</html>
